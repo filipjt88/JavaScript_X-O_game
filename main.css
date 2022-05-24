@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 8px #eee;
+    margin: 150px auto;
+    user-select: none;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0, .8);
+    border: 1px solid #ddd;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    font-size: 4rem;
+}
